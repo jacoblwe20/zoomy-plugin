@@ -514,8 +514,8 @@
 									    }
 									
 								    },
-								    'click': function () {
-									    return false;
+								    'click': function (e) {
+									    e.preventDefault();
 								    }
 							    };
 						    
